@@ -16,9 +16,13 @@ python3 -m venv venv
 ```
 source venv/bin/activate
 ```
+go to this directory and hit this command
 ```
-(venv) w3e103@w3e103:~/Downloads/Scarpy-master/scrapy-project/hotel_scraper/hotel_scraper/spiders$
+ w3e103@w3e103:~/Downloads/Scarpy-master/scrapy-project
 ```
 ```
-scrapy crawl hotel_spider
+docker-compose build
+```
+```
+docker-compose up
 ```
