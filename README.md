@@ -21,8 +21,6 @@ go to this directory and hit this command
  w3e103@w3e103:~/Downloads/Scarpy-master/scrapy-project
 ```
 ```
-docker-compose build
+docker-compose up --build
 ```
-```
-docker-compose up
 ```
