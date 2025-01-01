@@ -56,12 +56,21 @@ services:
     networks:
       - app_network
 
- 
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer_Container
+    ports:
+      - "9443:9443"
+    volumes:
+      - portainer-data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
 
 
 volumes:
   postgres_data:
   pgadmin_data:
+  portainer-data:
 
 networks:
   app_network:
