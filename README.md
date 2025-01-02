@@ -18,7 +18,10 @@ source venv/bin/activate
 ```
 go to this directory and hit this command
 ```
- w3e103@w3e103:~/Downloads/Scarpy-master/scrapy-project
+ cd Scarpy-master 
+```
+```
+cd scrapy-project
 ```
 ```
 docker-compose up --build
